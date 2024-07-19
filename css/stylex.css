@@ -25,7 +25,7 @@ nav {
 .logo {
   font-size: 1rem;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .log span {
@@ -217,6 +217,7 @@ body {
 
 .about-text p {
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .myself h1 {
@@ -679,3 +680,65 @@ footer span {
       width: 100%;
   }
 }
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section contact{
+  margin: 0 30px;
+  flex: 1;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  margin-right: 20rem;
+}
+.footer-section social{
+  margin: 0 30px;
+  flex: 1;
+
+}
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  color: #bbb;
+}
+
+.social-icon {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.social-icon:hover {
+  color: #ddd;
+}
+
